@@ -1,6 +1,7 @@
 html {
     width: 100vw;
     height: 100vh;
+    font-family: 'Roboto', serif;
 }
 
 body {
@@ -45,6 +46,7 @@ body {
     background-color: white;
     padding-top: 2rem;
     padding-left: 3rem;
+    padding-bottom: 2rem;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.212);
 }
 
@@ -53,4 +55,41 @@ body {
     position: relative;
     bottom: 10rem;
     font-size: 1.5rem;
+}
+
+#form input {
+    margin-bottom: 2rem;
+    padding: 5px;
+    padding-right: 4rem;
+
+}
+
+#form input:active {
+    border-color: blue;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.212);
+}
+
+#form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#formleft {
+    width: 50%;
+}
+
+#formright {
+    width: 50%;
+}
+
+p {
+    font-size: 2rem;
+    margin: 0;
+}
+
+#submit {
+    background-color: #25740d7c;
+    color:white;
+    
+
 }
