@@ -130,3 +130,7 @@ div>img {
 #sidebar>p {
     font-size: 6rem;
 }
+
+input:invalid {
+    border-color:rgb(230, 12, 56);
+}
